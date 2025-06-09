@@ -1,49 +1,101 @@
 <!doctype html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-		<link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Estilos externos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-		<title>MB Tech - Links</title>
+  <!-- Favicon e título -->
+  <link rel="icon" href="assets/images/mbtech.png">
+  <title>MB Tech - Links</title>
 
-		<link rel="icon" href="assets/images/mbtech.png">
+  <!-- Dark Mode CSS -->
+  <style>
+    body {
+      background-color: #fff;
+      color: #212529;
+    }
 
-	</head>
-	<body>
-		<div class="container text-center col-md-6 mx-auto my-5">
+    .main-footer {
+      background-color: #f8f9fa;
+      color: #212529;
+    }
 
-			<img class="img-fluid rounded-circle mb-3" src="assets/images/mbtech.png" width="150" alt="Avatar">
+    /* Suporte ao tema escuro automático */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #f1f1f1;
+      }
 
-			<h1>MB Tech</h1>
+      .btn-primary {
+        background-color: #4988BF;
+        border-color: #4988BF;
+      }
 
-			<p>Serviços de TI relacionados a manutenção de dispositivos como impressoras, computadores, notebooks, gerenciamento e configuração de redes e desenvolvimento de soluções de software.</p>
+      .main-footer {
+        background-color: #121212;
+        color: #cccccc;
+      }
 
-			<div class="my-5">
-				<a class="instagram" href="https://www.instagram.com/mb.tech7/" target="_blank"><i class="fa-brands fa-instagram fa-2x fa-fw"></i></a>
-			</div>
+      a {
+        color: #80BFB9;
+      }
 
-			<div class="mb-5">
-				<p><a class="btn btn-primary w-100" href="https://api.whatsapp.com/send/?phone=32984924071&text=Ol%C3%A1,+preciso+de+suporte+t%C3%A9cnico.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0" target="_blank">Atendimento MB Tech</a></p>
-				<!-- <p><a class="btn btn-primary w-100" href="./responsavelTecnico.html">Responsável técnico</a></p>-->
-				<!-- <p><a class="btn btn-primary w-100" href="https://example.net">A Third Link</a></p> -->
-			</div>
+      a:hover {
+        color: #ffffff;
+      }
+    }
 
-		</div>
+    a.instagram {
+      color: #e1306c;
+    }
 
-		<script src="assets/js/script.js"></script>
+    a.instagram:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container text-center col-md-6 mx-auto my-5">
+    <img class="img-fluid rounded-circle mb-3" src="assets/images/mbtech.png" width="150" alt="Avatar">
 
-		<footer class="text-center main-footer mt-4 pt-4" style="background-color: #f8f9fa; height: 150px; ">
-			<small>Desenvolvido por <a href="https://github.com/MayconBruno7" target="_blank">Maycon Bruno</a></small>
-			<p></p>
-			<span>© 2025 Company, Inc</span>
-	
-	
-			<div class="container mt-2 mb-5">
-				<a aria-current="page" href="index.html">Página de links</a>
-			</div>
-		</footer>
-	</body>
+    <h1>MB Tech</h1>
+
+    <p>
+      Serviços de TI relacionados a manutenção de dispositivos como impressoras, computadores, notebooks,
+      gerenciamento e configuração de redes e desenvolvimento de soluções de software.
+    </p>
+
+    <div class="my-5">
+      <a class="instagram" href="https://www.instagram.com/mb.tech7/" target="_blank">
+        <i class="fa-brands fa-instagram fa-2x fa-fw"></i>
+      </a>
+    </div>
+
+    <div class="mb-5">
+      <p>
+        <a class="btn btn-primary w-100"
+          href="https://api.whatsapp.com/send/?phone=32984924071&text=Ol%C3%A1,+preciso+de+suporte+t%C3%A9cnico.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+          target="_blank">Atendimento MB Tech</a>
+      </p>
+    </div>
+  </div>
+
+  <footer class="text-center main-footer mt-4 pt-4">
+    <small>Desenvolvido por <a href="https://github.com/MayconBruno7" target="_blank">Maycon Bruno</a></small>
+    <p></p>
+    <span>© 2025 Company, Inc</span>
+
+    <div class="container mt-2 mb-5">
+      <a aria-current="page" href="index.html">Página de links</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
 </html>
